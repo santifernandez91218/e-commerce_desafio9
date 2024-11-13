@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(129, 172, 221);
+  }
+  
+  .price {
+    font-size: 1.2em;
+    color: #ff5722;
+    font-weight: bold;
+  }
+
+  .carousel-inner {
+    max-height: 60vh;
+    overflow: hidden;
+  }
+  
+  .carousel-img {
+    object-fit: cover;
+    height: 100%;
+  }
+
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    .carousel-inner {
+      max-height: 40vh;
+    }
+  }
